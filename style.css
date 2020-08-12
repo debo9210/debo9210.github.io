@@ -10,7 +10,7 @@ body {
 /* nav styles */
 .nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   background: teal;
   position: fixed;
   top: 0;
@@ -38,6 +38,15 @@ body {
 
 .navList a:hover {
   color: #eee;
+}
+
+.brand {
+  width: 75px;
+  height: 75px;
+  background-color: #eee;
+  border-radius: 50%;
+  border: 1px solid #777777;
+  margin: 5px 10px;
 }
 
 /* welcome style */
@@ -142,6 +151,25 @@ body {
 .fas {
   font-weight: 900;
   margin-left: 10px;
+}
+
+/* gallery styles */
+.gallery {
+  background-color: #777;
+}
+
+.swiper-slide {
+  text-align: center;
+}
+
+.swiper-slide img {
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.swiper-container {
+  width: 600px;
+  height: 500px;
 }
 
 /* contact style */

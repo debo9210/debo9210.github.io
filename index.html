@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
 <body>
     <nav id="navbar" class="nav">
+        <img src="./images/logo.png" alt="logo" class="brand">
         <ul class="navList">
           <li><a href="#welcome-section">About</a></li>
           <li><a href="#projects">Work</a></li>
@@ -80,6 +85,43 @@
           <a  href="https://github.com/debo9210" id="profile-link" target="_blank" class="linkBtn">Show all <i class="fas fa-chevron-right"></i></a>
         </div>
       </section>
+
+      <section class="gallery">
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="https://assets.codepen.io/4742827/internal/screenshots/pens/GRoBgwp.default.png?format=auto&ha=false&height=360&quality=75&v=1&version=1594555876&width=640" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="https://assets.codepen.io/4742827/internal/screenshots/pens/wvMYzvR.default.png?format=auto&ha=false&height=360&quality=75&v=1&version=1594964962&width=640" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="https://assets.codepen.io/4742827/internal/screenshots/pens/OJMapLZ.default.png?format=auto&ha=true&height=360&quality=75&v=1&version=1595144470&width=640" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="https://assets.codepen.io/4742827/internal/screenshots/pens/ZEQrKZK.default.png?format=auto&ha=false&height=360&quality=75&v=1&version=1595153935&width=640" alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="https://assets.codepen.io/4742827/internal/screenshots/pens/OJMwjxP.default.png?format=auto&ha=true&height=360&quality=75&v=1&version=1594632023&width=640" alt="" >
+              </div>
+
+              <div class="swiper-slide">
+                <img src="https://assets.codepen.io/4742827/internal/screenshots/pens/RwrqoON.default.png?format=auto&ha=false&height=360&quality=75&v=1&version=1595060257&width=640" alt="">
+              </div>
+          </div>
+      
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+      
+      </div>
+      </section>
       
       <section id="contact">
         <h2>Let's work together...</h2>
@@ -95,10 +137,12 @@
       </section>
     <hr>
     <footer>
-      <p>&#169; debo9210 <span class="copy"></span></p>
+      <p>&#169; Yoatimet <span class="copy"></span></p>
     </footer>
     </main>
 
+    <script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
